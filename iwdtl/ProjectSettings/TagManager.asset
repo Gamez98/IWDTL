@@ -8,6 +8,8 @@ TagManager:
   - Floor
   - Score
   - Wall
+  - goLvl2
+  - goLvl3
   layers:
   - Default
   - TransparentFX
