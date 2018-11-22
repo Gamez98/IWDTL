@@ -10,10 +10,11 @@ public class Death : MonoBehaviour {
 	void Start () {
         mytext.text = "Your score is: " + PlayerPrefs.GetInt("puntaje").ToString();
         Debug.Log(PlayerPrefs.GetInt("puntaje"));
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        PlayerPrefs.SetInt("puntaje", 0);
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
